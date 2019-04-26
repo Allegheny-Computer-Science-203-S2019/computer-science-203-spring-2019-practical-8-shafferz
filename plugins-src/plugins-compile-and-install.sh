@@ -1,3 +1,4 @@
+# NOTE: You should run this script from the plugins-src/ directory
 python3 -m compileall .
 mkdir -p ../plugins
 cp __pycache__/*.pyc ../plugins
