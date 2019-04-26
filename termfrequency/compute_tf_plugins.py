@@ -7,6 +7,7 @@ import importlib.machinery
 # TODO: Make sure to complete all of the steps in the following file
 # TODO: Don't forget that the program will not work until you compile and load the plugins
 
+
 def load_plugins():
     """Load the compiled Python plugins specified in the configuration file"""
     config = configparser.ConfigParser()
