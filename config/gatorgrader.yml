@@ -7,8 +7,8 @@ indent: 4
 # note that without an "--exact" the check is an "at least"
 termfrequency:
         compute_tf_plugins.py:
-            --fragment "if __name__ ==" --count 1
-            --fragment "TODO" --count 0
+            --fragment "if __name__ ==" --count 1 --exact
+            --fragment "TODO" --count 0 --exact
 # --> check the technical writing
 # mdl is a Markdown linting tool
 # proselint checks writing for common mistakes
