@@ -70,9 +70,7 @@ To do well on this assignment, you should also read all relevant chapters in
 the "Exercises in Programming Style" book, paying particularly close attention
 to the content in Chapter 19. Please see the course instructor or one of the
 teaching assistants or tutors if you have questions about any of these reading
-assignments. Students who want to learn more about how to calculate code
-coverage for a Pytest test suite are encouraged to read the documentation for
-[Coverage.py](https://coverage.readthedocs.io/).
+assignments.
 
 ## Commands
 
