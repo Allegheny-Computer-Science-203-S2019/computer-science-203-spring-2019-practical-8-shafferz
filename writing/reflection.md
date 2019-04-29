@@ -1,4 +1,4 @@
-# Reflection by Add Your Name Here
+# Reflection by Zac Shaffer
 
 ## Explain in detail the steps to take to compile and install the plugins
 
