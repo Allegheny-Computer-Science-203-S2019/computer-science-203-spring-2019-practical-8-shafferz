@@ -9,16 +9,11 @@ First, add the
 corresponding `mv` commands for `frequencies1` and `words1` respectively. Then,
 compile the plugins with the command `./plugins-compile-and-install.sh`. This
 will compile the plugins. Then, make sure your program loads the plugins with
-the lines:
-
-```
-words_plugin = config.get("Plugins", "words")
-frequencies_plugin = config.get("Plugins", "frequencies")
-```
-
-In the `load_plugins()` method. If the `config.ini` file has the settings for
-`words` and `frequencies`, then the program should load the appropriate plugins
- and the code should work.
+the lines `words_plugin = config.get("Plugins", "words")` and
+`frequencies_plugin = config.get("Plugins", "frequencies")`. In the
+`load_plugins()` method. If the `config.ini` file has the settings for `words`
+and `frequencies`, then the program should load the appropriate plugins and the
+code should work.
 
 ## What are the benefits associated with adopting the plugin programming style?
 
