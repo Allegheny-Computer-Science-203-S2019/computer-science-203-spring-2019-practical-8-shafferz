@@ -22,7 +22,14 @@ In the `load_plugins()` method. If the `config.ini` file has the settings for
 
 ## What are the benefits associated with adopting the plugin programming style?
 
-Please provide a response to this question.
+The plugin style makes completing the task easier, as having completed code
+written for you in the form of a plugin translates to a lack of needing to
+write and understand the code structure and content. Furthermore, by using
+plugins, it makes accomplishing the task of counting the frequencies of the
+words in the given input as simple as adding the plugin(s) as a dependency,
+rather than having to write the module yourself. If the plugin has no red
+flags or bugs, then you can rest assured that your code will also be
+appropriate.
 
 ## Explain the challenges that you encountered and how you overcame them
 
