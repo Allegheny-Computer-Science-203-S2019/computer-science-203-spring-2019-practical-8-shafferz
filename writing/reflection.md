@@ -33,4 +33,8 @@ appropriate.
 
 ## Explain the challenges that you encountered and how you overcame them
 
-Please provide a response to this question.
+This assignment was relatively easy. I am extremely pleased with only having to
+write 50 words instead of 100 for the reflection, so I don't have to add poor or
+unnecessary verbiage to pass the checks. The hardest part was understanding the
+relationships between the given `.sh` file, the `config.ini` file, and the
+source code itself.
