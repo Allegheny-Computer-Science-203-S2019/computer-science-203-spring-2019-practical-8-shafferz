@@ -9,8 +9,8 @@ def load_plugins():
     """Load the compiled Python plugins specified in the configuration file"""
     config = configparser.ConfigParser()
     config.read("config.ini")
-    words_plugin = config.get("Plugins", "words1.pyc")
-    frequencies_plugin = config.get("Plugins", "frequencies1.pyc")
+    words_plugin = config.get("Plugins", "words")
+    frequencies_plugin = config.get("Plugins", "frequencies")
     # pylint: disable=global-variable-undefined
     global tfwords, tffreqs
     # pylint: disable=no-value-for-parameter
